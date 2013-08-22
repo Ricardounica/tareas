@@ -7,12 +7,12 @@ int main ()
    char str2[15];
    int ret;
 
-   printf("\nIngrese cadena 1: ");
-   gets(str1);
-   //strcpy(str1, "abcdef");
-   printf("\nIngrese cadena 2: ");
-   gets(str2);
-   //strcpy(str2, "ABCDEF");
+   //printf("\nIngrese cadena 1: ");
+   //gets(str1);
+   strcpy(str1, "hola");
+   //printf("\nIngrese cadena 2: ");
+   //gets(str2);
+   strcpy(str2, "adios");
 
    ret = strcmp(str1, str2);
 
